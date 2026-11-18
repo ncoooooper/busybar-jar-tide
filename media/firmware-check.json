@@ -1,0 +1,50 @@
+{
+  "id": "BB-015",
+  "source": "Synthetic monobank personal client-info response. No personal bank account was connected.",
+  "scenario": "Selected the requested jar with 7400 of 10000 UAH and displayed 74%, balance and remaining amount.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 13,
+  "exit": "App io.ncoooooper.jartide exited: finished; heap peak 81.9 of 128 KiB",
+  "sha256": "7da7a2379a7d03c564464b8152c4848c9171fef531c7f711eef12207ce989746",
+  "pages": [
+    {
+      "caption": "JAR TIDE",
+      "value": "74%",
+      "lines": [
+        "7 400.00 UAH",
+        "Remaining 2 600.00"
+      ],
+      "fraction": 0.74
+    },
+    {
+      "caption": "BALANCE",
+      "value": "7 400.00",
+      "lines": [
+        "UAH",
+        "Private selection on host"
+      ]
+    },
+    {
+      "caption": "LAST CHANGE",
+      "value": "0.00",
+      "lines": [
+        "UAH",
+        "Since bridge start"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "JAR TIDE",
+    "value": "74%",
+    "lines": [
+      "7 400.00 UAH",
+      "Remaining 2 600.00"
+    ],
+    "fraction": 0.74
+  }
+}

@@ -4,6 +4,6 @@
   "name": "Jar Tide",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Jar Tide",
+  "description": "Follow one monobank jar, its remaining goal and the latest balance change.",
   "author": "ncoooooper"
 }
