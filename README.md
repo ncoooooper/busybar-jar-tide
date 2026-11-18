@@ -4,6 +4,8 @@ Follow one monobank jar, its remaining goal and the latest balance change.
 
 One jar gets the whole display. You can see the next attainable amount at a glance without opening your bank account each time someone asks how a collection is going.
 
+On the goal page the jar fills from the bottom as the balance approaches the target. The amount and change pages leave room for the full number.
+
 ## Check the balance behind the percentage
 
 1. Select one jar in your local configuration. The companion needs that jar’s ID or sendId and your token on the host.

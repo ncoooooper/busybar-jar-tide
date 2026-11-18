@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.jartide exited: finished; heap peak 81.9 of 128 KiB",
-  "sha256": "7cd95193c4fef317043659483f86e343000e7c2c988a002cc48fbac76872d9f7",
+  "sha256": "e6246c6f6ba3ef3f45e6191930be31f5044f048e06e751c76133905efa38a575",
   "pages": [
     {
       "caption": "JAR TIDE",
@@ -107,9 +107,9 @@
     ],
     "frames": 128,
     "distinct_by_flow": [
-      7,
-      13
+      3,
+      3
     ],
-    "exit": "App io.btype.jartide exited: finished; heap peak 87.4 of 128 KiB"
+    "exit": "App io.btype.jartide exited: finished; heap peak 84.5 of 128 KiB"
   }
 }
