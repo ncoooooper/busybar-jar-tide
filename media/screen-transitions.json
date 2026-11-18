@@ -1,6 +1,17 @@
 {
   "app": "busybar-jar-tide",
-  "sha256": "3484e04ffb360f000ce2e45efaacf5ebc67c7521745986e687ad0a5a074d9bef",
+  "sha256": "7daa6aeb7cc82e0d92811a1a934db78c6927b7f3d8c316e9a356efeefdd7904d",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.jartide",
+    "sha256": "7daa6aeb7cc82e0d92811a1a934db78c6927b7f3d8c316e9a356efeefdd7904d",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 88.2,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
