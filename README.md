@@ -22,7 +22,7 @@ One jar gets the whole display. You can see the next attainable amount at a glan
 
 ## Example from the emulator
 
-At 7,400.00 UAH, the 75% milestone is 7,500.00 UAH, so the shortfall is 100.00 UAH. The GIF shows the balance and percentage pages. With a missing goal, the companion still reports balance and uses **No goal** for progress. Synthetic monobank personal client-info response. No personal bank account was connected.
+At 7,400.00 UAH, the 75% milestone is 7,500.00 UAH, so the shortfall is 100.00 UAH. The GIF shows the balance and percentage pages. With a missing goal, the companion still reports balance and uses **No goal** for progress. The recorded example used a simulated monobank response.
 
 ## Set up the source
 
