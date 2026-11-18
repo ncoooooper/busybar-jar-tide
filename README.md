@@ -6,6 +6,20 @@ One jar gets the whole display. You can see the next attainable amount at a glan
 
 On the goal page the jar fills from the bottom as the balance approaches the target. The amount and change pages leave room for the full number.
 
+## Screen transitions
+
+Follow the balance into its next milestone. The amount stays below the changing caption.
+
+![Jar Tide front display. Follow the balance into its next milestone. The amount stays below the changing caption.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Jar Tide rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Check the balance behind the percentage
 
 1. Select one jar in your local configuration. The companion needs that jar’s ID or sendId and your token on the host.
@@ -44,6 +58,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
