@@ -46,5 +46,51 @@
       "Remaining 2 600.00"
     ],
     "fraction": 0.74
+  },
+  "companion_check": {
+    "source": "Production HTTP companion supplied a controlled monobank response on the host. The installed firmware archive and original emulator captures match their earlier verification.",
+    "pages": [
+      {
+        "caption": "JAR TIDE",
+        "value": "74%",
+        "lines": [
+          "7 400.00 UAH",
+          "Remaining 2 600.00"
+        ],
+        "fraction": 0.74
+      },
+      {
+        "caption": "BALANCE",
+        "value": "7 400.00",
+        "lines": [
+          "UAH",
+          "Private selection on host"
+        ]
+      },
+      {
+        "caption": "LAST CHANGE",
+        "value": "0.00",
+        "lines": [
+          "UAH",
+          "Since bridge start"
+        ]
+      },
+      {
+        "caption": "NEXT MILESTONE",
+        "value": "75%",
+        "lines": [
+          "Need 100.00 UAH",
+          "At balance 7 500.00"
+        ],
+        "fraction": 0.9866666666666667
+      }
+    ],
+    "cases": [
+      "target not set",
+      "zero target",
+      "one minor-unit goal",
+      "74 and 75 percent",
+      "goal reached and exceeded"
+    ]
   }
 }

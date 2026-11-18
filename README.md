@@ -2,7 +2,7 @@
 
 Follow one monobank jar, its remaining goal and the latest balance change.
 
-Set MONO_TOKEN in the environment of the companion and set jar in config.json to the specific jar ID or sendId. Tokens stay on your computer. The selected balance is returned in major currency units, including cents. A missing or zero target is shown as no goal. The personal client-info endpoint is read at most once per 65 seconds. See https://api.monobank.ua/docs/.
+Set MONO_TOKEN in the environment of the companion and set jar in config.json to the specific jar ID or sendId. Tokens stay on your computer. The selected balance is returned in major currency units, including cents. Turn to the milestone page to see the exact amount needed for the next quarter of your goal. It marks completion at 100%. A missing or zero target is shown as no goal. The personal client-info endpoint is read at most once per 65 seconds. See https://api.monobank.ua/docs/.
 
 ## Connect the bar
 

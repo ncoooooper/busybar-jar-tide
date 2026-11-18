@@ -19,7 +19,19 @@ def snapshot(o,m):
     def amount(c):return f"{c/100:,.2f}".replace(","," ")
     progress=bal/goal if goal and goal>0 else None
     level=f"{progress*100:.0f}%" if progress is not None else "No goal"
-    return dict(state="Selected jar / "+unit,key=str(bal),alert=bal>previous,pages=[
+    pages=[
       page("JAR TIDE",level,amount(bal)+" "+unit,"Remaining "+amount(max(0,goal-bal)) if goal and goal>0 else "Goal not set",fraction=progress),
       page("BALANCE",amount(bal),unit,"Private selection on host"),
-      page("LAST CHANGE",("+" if change>0 else "")+amount(change),unit,"Since bridge start")])
+      page("LAST CHANGE",("+" if change>0 else "")+amount(change),unit,"Since bridge start")]
+
+    if goal is not None and goal > 0:
+        # Work in minor units so rounding never declares a milestone early.
+        for percent in (25, 50, 75, 100):
+            target = (goal * percent + 99) // 100
+            if bal < target:
+                pages.append(page("NEXT MILESTONE", f"{percent}%", "Need " + amount(target - bal) + " " + unit,
+                                  "At balance " + amount(target), fraction=bal / target))
+                break
+        else:
+            pages.append(page("MILESTONE", "100%", "Goal reached", "Balance " + amount(bal) + " " + unit, fraction=1))
+    return dict(state="Selected jar / " + unit, key=str(bal), alert=bal > previous, pages=pages)
